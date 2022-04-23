@@ -1,0 +1,50 @@
+@import url(./styles/normalize.css);
+@import url(./styles/about.css);
+@import url(./styles/footer.css);
+@import url(./styles/header.css);
+@import url(./styles/options.css);
+@import url(./styles/popup.css);
+@import url(./styles/preview.css);
+@import url(./styles/welcomeSection.css);
+
+@import url(./styles/burger.css);
+@import url(./styles/burger__block.css);
+@import url(./styles/burger__block_button-account.css);
+@import url(./styles/burger__block_hidden.css);
+@import url(./styles/burger__block_text-text.css);
+@import url(./styles/burger__block_text.css);
+@import url(./styles/burger__block_visible.css);
+@import url(./styles/burger__close.css);
+@import url(./styles/span.css);
+
+.body {
+    background-color: #616600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Roboto-Medium.woff2) format("woff2"), url(../fonts/Roboto-Medium.woff) format("woff")
+}
+
+.burger__close_hidden {
+    display: none;
+}
+/* @font-face {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/opensanssemibold.woff2) format("woff2"), url(../fonts/opensanssemibold.woff) format("woff")
+} */
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Roboto-Bold.woff2) format("woff2"), url(../fonts/Roboto-Bold.woff) format("woff")
+}
