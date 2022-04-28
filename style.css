@@ -6,7 +6,6 @@
 @import url(./styles/popup.css);
 @import url(./styles/preview.css);
 @import url(./styles/welcomeSection.css);
-
 @import url(./styles/burger.css);
 @import url(./styles/burger__block.css);
 @import url(./styles/burger__block_button-account.css);
@@ -33,13 +32,6 @@
 .burger__close_hidden {
     display: none;
 }
-/* @font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(../fonts/opensanssemibold.woff2) format("woff2"), url(../fonts/opensanssemibold.woff) format("woff")
-} */
 
 @font-face {
     font-family: Roboto;
